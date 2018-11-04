@@ -1,8 +1,10 @@
-# Ejercicios C++
-### Diversos ejercicios C++
+# C++ Exercises
+### Various exercises in C++
 
 ---
 
-Aquí encontrarás diversos ejercicios de C++, los cuales te pueden ser útiles para entender este hermoso lenguaje de programación.
+Here you will find various C++ exercises, which could be useful to understand this beautiful programming language.
 
 ---
+
+*Read this in other languages: [English](README.md), [Español](README.es.md).*
