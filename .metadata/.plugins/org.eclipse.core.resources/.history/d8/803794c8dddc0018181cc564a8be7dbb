@@ -1,0 +1,19 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 31/10/2018
+ *      Author: Jose Edgardo Morales Barroso
+ */
+
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+{
+	std::cout << "Hola Mundo";
+}
+
+
+

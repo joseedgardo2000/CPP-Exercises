@@ -1,0 +1,18 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 31/10/2018
+ *  Author: Jose Edgardo
+ */
+
+#include <iostream>
+
+int main()
+{
+	int a, b, c;
+
+	std::cout << "Introduce 2 numbers: " << std::endl;
+
+}
+
+
