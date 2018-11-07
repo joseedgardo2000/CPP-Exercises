@@ -2,7 +2,7 @@
  * main.cpp
  *
  *  Created on: 01/11/2018
- *  Author: Jose Edgardo
+ *  Author: Jose Edgardo Morales Barroso
  */
 
 #include <iostream>
