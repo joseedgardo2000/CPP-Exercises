@@ -10,16 +10,12 @@
 int main()
 {
 	long a = 12345L;
-	float b = 12.5F;
-	float c = 1.25e2F;
-	double d = 1.25e2L;
+	float b = 123.45F;
+	float c = 1.2345e2f;
+	double d = 1.2345e2L;
 
 	std::cout << "a: " << a << std::endl;
 	std::cout << "b: " << b << std::endl;
 	std::cout << "c: " << c << std::endl;
 	std::cout << "d: " << d << std::endl;
 }
-
-
-
-

@@ -1,8 +1,5 @@
-23:46:45 **** Rebuild of configuration Debug for project BinOctaHexa ****
+00:51:14 **** Incremental Build of configuration Release for project FloatAndLong ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
-g++ -o BinOctaHexa.exe "src\\main.o" 
-
-23:46:46 Build Finished. 0 errors, 0 warnings. (took 1s.559ms)
-
-Info: Nothing to build for BinOctaHexa
+g++ -std=c++17 -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o FloatAndLong.exe "src\\main.o" 
+Info: Nothing to build for FloatAndLong
