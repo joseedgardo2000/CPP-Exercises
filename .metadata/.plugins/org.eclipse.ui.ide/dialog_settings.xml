@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="NewWizardAction">
-	</section>
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\PROYECTOS\GitHub\CPP-Exercises\PideNombre"/>
+		<item value="C:\PROYECTOS\GitHub\CPP-Exercises\HelloWorld"/>
+		<item value="C:\PROYECTOS\GitHub\CPP-Exercises\First"/>
+	</list>
 </section>
