@@ -20,5 +20,5 @@ Base::Base(int a) {
 }
 
 void Base::display() {
-	std::cout << "x: " << getX() << std::endl;
+	std::cout << "[Base] x: " << getX() << std::endl;
 }

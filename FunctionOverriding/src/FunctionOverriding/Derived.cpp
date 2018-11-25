@@ -20,5 +20,5 @@ Derived::Derived(int a) {
 }
 
 void Derived::display() {
-	std::cout << "y: " << getY() << std::endl;
+	std::cout << "[Derived] y: " << getY() << std::endl;
 }

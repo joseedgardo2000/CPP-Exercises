@@ -24,6 +24,11 @@ int main(){
 
 	Derived e(200);
 	e.display();
+	e.setX(300);
+	e.Base::display();
+
+	Base* pBase = new Derived(400);
+	pBase->display();
 
 	return 0;
 }
