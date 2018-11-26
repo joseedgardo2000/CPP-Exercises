@@ -18,7 +18,7 @@ private:
 public:
 	//----- CONSTRUCTORS/DESTRUCTORS ---------//
 	Base(int a = 0, std::string name = "");
-    virtual ~Base() {}
+    virtual ~Base();
 	//----- ACCESSORS/MUTATORS ---------------//
 	int getX() const;
 	void setX(int x);
