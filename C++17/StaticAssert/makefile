@@ -1,5 +1,5 @@
 CC = x86_64-w64-mingw32-c++
-CPPFLAGS = -std=c++11
+CPPFLAGS = -std=c++17
 VPATH = src
 # ----- Directories ----- #
 OBJDIR = obj
