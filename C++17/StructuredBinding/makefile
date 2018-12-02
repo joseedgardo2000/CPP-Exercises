@@ -1,26 +1,28 @@
+# ---- MAKE VARS ---- #
 CC = x86_64-w64-mingw32-c++
 CPPFLAGS = -std=c++17
 VPATH = src
-# ----- Directories ----- #
+# ---- DIRECTORIES -- #
+SRCDIR = src
 OBJDIR = obj
 APPDIR = rel
-SRCDIR = src
-# ----- Directories ----- #
+# ---- FILES 
 SRCS = $(notdir $(wildcard $(SRCDIR)/*.cpp))
 OBJS = $(SRCS:.cpp=.o)
-OBJSFULL = $(addprefix $(OBJDIR)/,$(OBJS))
-APP = staticAssert.exe
+OBJSFULL = $(addprefix $(OBJDIR)/, $(OBJS))
+APP = structuredBinding.exe
 
 .PHONY:all
-.PHONY:clean
+.PHONY:clean 
 
 all:$(APP)
 
 $(APP):$(OBJS)
 	$(CC) -o $(APPDIR)/$@ $(OBJSFULL)
-	
+
 %.o:%.cpp
-	$(CC) -c -o $(OBJDIR)/$@ $< 
-	
+	$(CC) -c -o $(OBJDIR)/$@ $< $(CPPFLAGS)
+
 clean:
 	rm $(APPDIR)/$(APP) $(OBJSFULL)
+	
